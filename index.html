@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-  
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ID-card</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+  </style>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="background"><!-- background -->
+  <!-- div de la carta-->
+  <div id="card">
+    <!--  el titulo del id-->
+    <h1 id="card_title"> Jr Fullstack java developer  </h1>
+    <!-- div para la foto -->
+    <div class="foto">
+      <p id="foto"><img id="profile" alt="Foto de perfil hombre con barba y pelo rizado mirando de frente" src="pic.png"></p>
+    </div>
+    <!-- div para la firma -->
+    <div class="firma">
+      <p id="firma-text"><img id="firma-img" alt="Firma de Mauro Infante" src="signature.png"></p>
+    </div>
+    <!-- div para el contenido -->
+    <div class="contenido">
+      <pre><code><span class="keyword">local</span> <span class="var">profile</span> = {
+  <span class="key">backend</span>  = { <span class="string">"Java"</span>, <span class="string">"Spring Boot"</span> },
+  <span class="key">data</span>     = { <span class="string">"PostgreSQL"</span>, <span class="string">"MongoDB"</span> },
+  <span class="key">cybersec</span> = <span class="string">"purple team"</span>,
+  <span class="key">langs</span>    = { <span class="string">"English"</span>, <span class="string">"Español"</span> },
+  <span class="key">editor</span>   = <span class="string">"neovim"</span>,
+  <span class="key">learning</span> = <span class="bool">true</span>,
+}
+<span class="keyword">return</span> <span class="func">build</span>(<span class="var">profile</span>)</code></pre>
+    </div>
+  </div>
+</body>
+
 </html>
