@@ -6,4 +6,4 @@ realizado por Mauro Infante- maurux01
 
 # Preview
 Asi quedo como template sin rellenar
-![alt text](image.png)
+![alt text](preview.png)
